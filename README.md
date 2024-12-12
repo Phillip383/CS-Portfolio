@@ -1,7 +1,7 @@
 # CS-210-Portfolio
 
 - **Summarize the project and what problem it was solving.**
-  - The project lets a user manage items sold; it's primarily directed for grocery item use, but could be used for any number of inventory type. The user has multiple options they can choose from: insert new items, remove items, maybe because they were returned or entered by mistake. The program also have a search feature to retrieve the amount sold for a specific isolated item, or the user can choose to display all of the items sold in a list with corresponding frequency values or display a histogram.
+  - The project lets a user manage items sold; it's primarily directed for grocery item use, but could be used for any number of inventory types. The user has multiple options they can choose from: insert new items, remove items, maybe because they were returned or entered by mistake. The program also has a search feature to retrieve the amount sold for a specific isolated item, or the user can choose to display all of the items sold in a list with corresponding frequency values or display a histogram.
 
 - **What did you do particularly well?**
     - I think I handled user experience very well. With text output and input formatted in a way that would be easy for the user to read. I also believe that I maintained const correctness through out the program. 
