@@ -72,3 +72,26 @@ As I worked on the project I kept that in mind. I worked in manageable sizes for
 By using features that exist in many languages like passing functions as arguments and functions. I was able to condense and make most of the code more readable, at least to me. I also tackled GLSL, which I had never touched shaders prior to this course, but it was fun learning.
 
 Learning about computational graphics and visualizations will give me an edge for the future as my dream is to work as a game developer. Knowing or at least being familiar with lower level API's is never a bad thing. A lot of people tell others to not rebuild the wheel, but what if I want to build wheels? Knowing how matrices and vectors are used in computational graphics and how buffers are used to display all forms of objects and effects has further increased my understanding of tools that I use daily.
+
+# CS-300
+
+- What was the problem you were solving in the projects for this course?
+
+The problem throughout the course was focuesed on storing and retrieving data; specifically a list of courses with associated memebers like a name, id, and any prerequisites the course required. Finding the optimal data structure to provide the fastest computation for searching and iterating the courses was the exercise.
+
+- How did you approach the problem? Consider why data structures are important to understand.
+
+I approached the problem in a methodical way; looking at the requirements and operations needed to be performed on the data. This is the key to finding the most optimal data structure, its not only a question of what we are storing, but how we will work with the stored data. For example, you wouldn't want to use an array or dynamic array such as a vector when the main operation is searching objects via an id or name, unless you make the id's correlate to the index it's being stored at; which is a fine solution, but it causes a normalization issue by creating more than one source of truth in the data, which could be a maintaince nightmare. Data structures are important simply because using the wrong one for certian types of operations will create a huge bottleneck in performance and bad UX for the user, dealing with constant hitches and unresponsiveness.
+
+- How did you overcome any roadblocks you encountered while going through the activities or project?
+
+The Zybook was an amazing resource, it provided great example code to build from. I also utilized popular websites like geeksforgeeks.com, which have nice articles on theory, and practical application of the theory.
+
+- How has your work on this project expanded your approach to designing software and developing programs?
+
+Since, I have worked ahead in my programming journey outside of my college coursework; I was already in the mindset to ask the right questions about the data being stored for the application, but I will say that this course gave me a better and more nuanced understanding of data structures, noteably, hash functions for a hash map. I really loved that section, it was my favorite week of the course.
+
+- How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
+
+I have had a focus on scalability and maintainability for awhile now, and readability of the code is something I have really focused on from the beginning, I opt for more verbosity, than tricks to let a function be one line. The idea is to write code that doesn't need comments. Comments and the code can become out of sync and increase confusion. For example, using lambda's or omitting the brackets for control blocks in C is generally a bad idea for maintainability.
+
