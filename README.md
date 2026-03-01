@@ -95,3 +95,17 @@ Since, I have worked ahead in my programming journey outside of my college cours
 
 I have had a focus on scalability and maintainability for awhile now, and readability of the code is something I have really focused on from the beginning, I opt for more verbosity, than tricks to let a function be one line. The idea is to write code that doesn't need comments. Comments and the code can become out of sync and increase confusion. For example, using lambda's or omitting the brackets for control blocks in C is generally a bad idea for maintainability.
 
+# CS-320
+
+How can I ensure that my code, program, or software is functional and secure?
+
+Having a dedicated testing plan and workflow early in the project will help catch some defects and vulnerabilities. Employing Unit Tests with adequate coverage of the classes will ensure that all diverging branches are being tested. Integration tests will ensure that the different modules/microservices are working together correctly. As for security, this is where code reviews becomes very useful. As forgetting to sanitize input before storing it or using it is a very easy mistake to make. I have a zero-trust policy in my life when it comes to tech and software. I follow this rule even with dependencies for my projects. The recent npm issues is only but one apparent reason as to why. Using role based access for the application, and only allowing the minimum permissions for the app and its users roles also helps in strengthen the application. Encrypting stored data, and while being transferred over a network is also important. However, an application will only ever be as secure as the user accessing it, you should assume a breach will happen, its not an excuse to overlook security.
+
+How do I interpret user needs and incorporate them into a program?
+
+In a previous course I learned about the "Five Whys," by asking "Why" five times about a proposed feature from a user you can get the most detail and to the root of the problem they are seeking a solution for. Another good way is using user stories. Where writing requirements through the lens of a user for the application can offer a cost/benefit analysis of the feature. Paying close attention to any boundaries the user might request.
+
+
+How do I approach designing software?
+
+The first and most important thing is planning the architecture of the application. This is synonymous with the foundation of a home, pouring a foundation on sand for a structure means the entire structure is fragile and will eventually collapse. Software is no different. Building on a poor architecture leads to a fragile application. Utilizing principles like Decomposition to break large problems down into manageable tasks and picking the right design for features/systems. For example, using the single responsibility principle to keep business logic out of the UI, or using a design pattern like the command pattern to keep functionality decoupled and easily executed from multiple areas.
